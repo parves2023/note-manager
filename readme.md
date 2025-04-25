@@ -20,9 +20,11 @@ A minimal yet powerful task manager app built with modern web technologies. This
 ## 🌐 Live Features
 
 - ✅ **Authentication**
-  - Simple login & register flow (JWT-based)
-  - Only two `.env` variables used (secure and minimal)
+  - Simple login & register flow 
+  - Only two `.env` variables used (secure and minimal) MONGODB_URI
   - After clicking "Get Started", users are redirected to the login page
+
+
 
 - ✅ **Task Board**
   - Tasks organized into three columns: `TODO`, `IN PROGRESS`, and `COMPLETED`
@@ -45,5 +47,6 @@ A minimal yet powerful task manager app built with modern web technologies. This
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/k-manager.git
-cd k-manager
+git clone https://github.com/parves2023/note-manager
+cd note-manager
+add .env.local => MONGODB_URI
